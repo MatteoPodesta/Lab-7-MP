@@ -9,7 +9,6 @@
 #include <sstream>
 using namespace std;
 
-//CONSTANT GLOBAL VARIABLES-----------------------------------------------------------------------------
 const string DEFAULT_NAME = "n/a";
 const string DEFAULT_CREATURE_TYPE = "typeless";
 const int TYPELIST_SIZE = 4;
@@ -18,7 +17,6 @@ const int DEFAULT_HEALTH_AND_STRENGTH = 120;
 const int DEFAULT_SIZE = 5;
 const int ARMY_SIZE = 10;
 
-//CLASSES-----------------------------------------------------------------------------------------------
 class Creature {
 public:
 
@@ -109,7 +107,6 @@ private:
 
 };
 
-//FUNCTION DECLERATIONS---------------------------------------------------------------------------------
 string checkName(string name);
 string checkType(string type);
 int checkHealthAndStrength(int value);
@@ -117,7 +114,6 @@ void sortSwitch(Army& army, int input);
 void createSwitch(Army &army, int input);
 bool sortByString(string string_i, string string_j);
 
-//ENUM--------------------------------------------------------------------------------------------------
 enum {
 
 	CREATE = 1,
@@ -126,7 +122,6 @@ enum {
 	
 };
 
-//MAIN--------------------------------------------------------------------------------------------------
 int main()
 {
 
@@ -169,7 +164,6 @@ int main()
 	}
 }
 
-//FUNCTIONS---------------------------------------------------------------------------------------------
 string checkName(string name) {
 
 	int count = 0;
@@ -493,7 +487,6 @@ bool sortByString(string string_i, string string_j) {
 }
 
 
-//CLASS FUNCTIONS---------------------------------------------------------------------------------------
 void Creature::setCreature(string newName, string newType, int newHealth, int newStrength) {
 
 	creatureName = checkName(newName);
@@ -525,7 +518,6 @@ void Army::printTheList(int size) {
 
 }
 
-//ARMY CONSTRUCTORS-------------------------------------------------------------------------------------
 Army::Army() {
 
 	cout << "Default constructor is running...\n";
