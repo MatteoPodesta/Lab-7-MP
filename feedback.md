@@ -18,6 +18,7 @@
 * 561 and like: abruptly terminates the program if  creatures cannot be allocated;  what if existing armies can be  sufficient for main()? -2
 * 541 if you use delete on something that was not dynamically allocated, a compiler might throw an exception; check first, then use delete -2
 * 80-81 should create a highly reusable function that takes an error message string as a parameter and clears the failed input; it does not need to ask the user to re-enter, the menu loop already does it  -2
+* * file name(s) and/or file/folder structure/capitalization do not comply with posted instructions; folder- CSXXX_LN_FL (all caps, X – class catalog number, N- lab number, FL- your initials;  files:  all lower case, main() – main.cpp, input - “in_\*.txt”, output –“out_\*.txt”, error –“err_\*.txt”; do not include any other files or folders; include feedback.md for instructor to post feedback -2
 * 148 and like:<< not needed between strings -1
 * main()- missing return statement -1
 *  UI- no warning/confirmation  about quitting -1
